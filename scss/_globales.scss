@@ -1,0 +1,118 @@
+/*Estilos del body*/
+body {
+    background-color: $color-5;
+    background-image: linear-gradient($color-1, rgb(85, 234, 231), $color-2, $color-2);
+}
+
+header {
+    background-color: $color-2;
+    padding: 15px;
+    padding-left: 40px;
+    margin: 20px;
+}
+
+/*Estilo de títulos*/
+h1 {
+    color: $color-6;
+    font-family: $font-family-2;
+    font-weight:normal;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+}
+
+h2 {
+    color: $color-6;
+    font-family:$font-family-1;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*Estilo de imágenes*/
+img {
+    max-width: 100%;
+    width: 20%;
+    margin: 20px;
+}
+
+/*Estilos del Nav*/
+.container-fluid {
+    background-color: $color-2;
+    font-style: $style1;
+    font-weight: bold;
+    justify-content:center;
+}
+
+/*Hipervínculos del Nav*/
+.anchor1 {
+    text-align: center;
+    color: $color-6;
+    text-decoration: none;
+    border-style:ridge;
+    border-color: $color-7;
+    border-radius: 50px;
+    margin: 15px;
+    padding-inline: 40px;
+    font-size: medium;
+    &:hover { 
+        background-color: $color-6;
+        color: $color-2;
+        font-style: $style2;
+}
+@media (min-width: 375px) {
+    @include flex2;   
+}
+@media (min-width: 768px) {
+    @include flex2;
+}
+}
+.navbar-toggler-icon {
+    background: url('https://api.iconify.design/streamline/interface-setting-menu-parallel-hamburger-circle-navigation-parallel-hamburger-buttonmenu-circle.svg?color=white') no-repeat center center / contain; 
+}
+ 
+/*Estilo del carrousel*/
+.carousel-item img {
+    max-width: 100%;
+    margin: 0;
+    height: 350px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+    @media (min-width:768px) {
+        height: 400px;
+        padding: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    @media (min-width:992px) {
+        height: 500px;
+        padding: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+/*Estilo del footer*/
+footer {
+    background-color: $color-1;
+    color: $color-6;
+    text-align: left;
+    justify-content: left;
+    padding: 15px;
+    padding-left: 40px;
+    margin: 20px;
+}
+.p-footer1 {
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.col {
+    justify-content: center;
+    text-align: left;
+   
+}

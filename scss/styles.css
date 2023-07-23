@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*Reseteo CSS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Paleta de Colores*/
+/*Google fonts*/
+/*Font styles*/
+/*Estilo de títulos*/
+h1 {
+  color: white;
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+}
+
+.container-fluid {
+  background-color: #408E91;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.anchor1 {
+  color: aliceblue;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */

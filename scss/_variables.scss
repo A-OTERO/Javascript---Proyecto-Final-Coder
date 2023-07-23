@@ -1,0 +1,46 @@
+/*Reseteo CSS*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Paleta de Colores*/
+$color-1: #245953;
+$color-2: #408E91;
+$color-3: #E49393;
+$color-4: #D8D8D8;
+$color-5: black;
+$color-6: white;
+$color-7: rgb(71, 204, 202);
+
+
+/*Google fonts*/
+$font-family-1: 'Open Sans', sans-serif;
+$font-family-2: 'Satisfy', cursive;
+
+/*Font styles*/
+$style1: normal;
+$style2: italic;
+$style3: oblique;
+$style4: uppercase;
+
+@mixin flex1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+@mixin flex2 {
+display: flex;
+flex-direction:row-reverse;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+
+

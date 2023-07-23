@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/*Reseteo CSS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Paleta de Colores*/
+/*Google fonts*/
+/*Font styles*/
+/*Estilos del body*/
+body {
+  background-color: black;
+  background-image: linear-gradient(#245953, rgb(85, 234, 231), #408E91, #408E91);
+}
+
+header {
+  background-color: #408E91;
+  padding: 15px;
+  padding-left: 40px;
+  margin: 20px;
+}
+
+/*Estilo de títulos*/
+h1 {
+  color: white;
+  font-family: "Satisfy", cursive;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  padding: 10px;
+}
+
+/*Estilo de imágenes*/
+img {
+  max-width: 100%;
+  width: 20%;
+  margin: 20px;
+}
+
+/*Estilos del Nav*/
+.container-fluid {
+  background-color: #408E91;
+  font-style: normal;
+  font-weight: bold;
+  justify-content: center;
+}
+
+/*Hipervínculos del Nav*/
+.anchor1 {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-style: ridge;
+  border-color: rgb(71, 204, 202);
+  border-radius: 50px;
+  margin: 15px;
+  padding-inline: 40px;
+  font-size: medium;
+}
+.anchor1:hover {
+  background-color: white;
+  color: #408E91;
+  font-style: italic;
+}
+@media (min-width: 375px) {
+  .anchor1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .anchor1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.navbar-toggler-icon {
+  background: url("https://api.iconify.design/streamline/interface-setting-menu-parallel-hamburger-circle-navigation-parallel-hamburger-buttonmenu-circle.svg?color=white") no-repeat center center/contain;
+}
+
+/*Estilo del carrousel*/
+.carousel-item img {
+  max-width: 100%;
+  margin: 0;
+  height: 350px;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .carousel-item img {
+    height: 400px;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-item img {
+    height: 500px;
+    padding: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/*Estilo del footer*/
+footer {
+  background-color: #245953;
+  color: white;
+  text-align: left;
+  justify-content: left;
+  padding: 15px;
+  padding-left: 40px;
+  margin: 20px;
+}
+
+.p-footer1 {
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.col {
+  justify-content: center;
+  text-align: left;
+}
+
+/*Estilo de imágenes*/
+img {
+  max-width: 100%;
+  width: 20%;
+  margin: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  height: 450px;
+}
+@media (min-width: 768px) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 300px;
+  }
+  .card img {
+    max-width: 80%;
+  }
+}
+
+h5 {
+  font-family: cursive;
+  font-style: oblique;
+  font-size: large;
+  font-weight: bold;
+  color: rgb(45, 154, 94) !important;
+}
+
+.card-img-bottom, .card-img-top {
+  margin: 5px;
+  border-radius: 20px;
+  border-style: ridge;
+  border-color: aquamarine;
+}
+
+.card body {
+  padding: 10px;
+}
+
+.container-nosotros {
+  border-style: ridge;
+  border-radius: 25px;
+  margin: 50px;
+  padding: 20px;
+  border-color: rgb(71, 204, 202);
+  background-image: radial-gradient(white, rgb(71, 204, 202));
+  color: black;
+}
+
+/*Estilo de imágenes*/
+img {
+  max-width: 100%;
+  width: 20%;
+  margin: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
