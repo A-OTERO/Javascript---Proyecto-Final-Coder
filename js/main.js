@@ -334,3 +334,8 @@ class clientePremium {
         return precioProducto/1.21;
     }
     console.log(buscador8);
+
+
+
+    //3RA ENTREGA
+    
