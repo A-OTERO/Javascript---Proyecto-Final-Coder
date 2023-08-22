@@ -1,6 +1,29 @@
 /*Estilo de imágenes*/
+body {
+background-image: ($color-1, rgb(85, 234, 231), $color-2, $color-2);
+}
+
 img {
     max-width: 100%;
     width: 20%;
     margin: 20px;
 }
+
+.buscador_Container{
+    margin: 50px;
+    padding: 15px;
+}
+
+.container-fluid {
+    text-align: left;
+    justify-content: left;
+    padding: 10px;
+    padding-left: 1px;
+    margin: 15px; 
+}
+
+.container-fluid2 {
+    display: flex; 
+   
+}
+
