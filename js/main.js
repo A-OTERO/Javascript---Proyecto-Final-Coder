@@ -1,4 +1,4 @@
-//1ERA ENTREGA
+/*//1ERA ENTREGA
 
 //Utilización de funciones-Salutación
 
@@ -333,9 +333,10 @@ class clientePremium {
     let buscador8 = function Iva(precioProducto) {
         return precioProducto/1.21;
     }
-    console.log(buscador8);
+    console.log(buscador8);*/
 
 
 
     //3RA ENTREGA
-    
+    /*Queda guardado dentro de los archivos inicio.js, carrito.js, usuarios.js, administrador.js
+    y en productos.html*/

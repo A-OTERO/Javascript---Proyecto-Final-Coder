@@ -14,7 +14,7 @@ class Productos {
 }
 
 //Productos creados
-export const infoProducto = [
+export const productos = [
     {idProducto: "A100",
      claseProducto: "Accesorio",
      nombreProducto: "Candelero Corazón",
